@@ -1,0 +1,39 @@
+﻿  main.cpp
+c:\users\ki0pl\documents\visual studio 2015\projects\ctrl\ctrl\linklist.hpp(53): warning C4018: “<”: 有符号/无符号不匹配
+  c:\users\ki0pl\documents\visual studio 2015\projects\ctrl\ctrl\linklist.hpp(45): note: 编译类 模板 成员函数“BOOL CLinkList<int>::AddToList(T,UINT)”时
+          with
+          [
+              T=int
+          ]
+  c:\users\ki0pl\documents\visual studio 2015\projects\ctrl\ctrl\main.cpp(12): note: 参见对正在编译的函数 模板 实例化“BOOL CLinkList<int>::AddToList(T,UINT)”的引用
+          with
+          [
+              T=int
+          ]
+  c:\users\ki0pl\documents\visual studio 2015\projects\ctrl\ctrl\main.cpp(10): note: 参见对正在编译的类 模板 实例化“CLinkList<int>”的引用
+c:\users\ki0pl\documents\visual studio 2015\projects\ctrl\ctrl\linklist.hpp(57): warning C4018: “>”: 有符号/无符号不匹配
+  正在生成代码...
+  正在编译...
+  g_attr.cpp
+c:\users\ki0pl\documents\visual studio 2015\projects\ctrl\ctrl\stack.hpp(57): warning C4018: “<”: 有符号/无符号不匹配
+  c:\users\ki0pl\documents\visual studio 2015\projects\ctrl\ctrl\stack.hpp(54): note: 编译类 模板 成员函数“BOOL CStack<int>::PushStack(const T &)”时
+          with
+          [
+              T=int
+          ]
+  c:\users\ki0pl\documents\visual studio 2015\projects\ctrl\ctrl\g_attr.cpp(20): note: 参见对正在编译的函数 模板 实例化“BOOL CStack<int>::PushStack(const T &)”的引用
+          with
+          [
+              T=int
+          ]
+  c:\users\ki0pl\documents\visual studio 2015\projects\ctrl\ctrl\g_attr.cpp(15): note: 参见对正在编译的类 模板 实例化“CStack<int>”的引用
+c:\users\ki0pl\documents\visual studio 2015\projects\ctrl\ctrl\stack.hpp(63): warning C4018: “<”: 有符号/无符号不匹配
+  SexAbility.cpp
+c:\users\ki0pl\documents\visual studio 2015\projects\ctrl\ctrl\sexability.cpp(47): warning C4244: “return”: 从“DOUBLE”转换到“UINT”，可能丢失数据
+  NetStatus.cpp
+  FemaleHunted.cpp
+  DayCalc.cpp
+  CBodyStatus.cpp
+  正在生成代码...
+  Ctrl.vcxproj -> C:\Users\ki0pl\Documents\Visual Studio 2015\Projects\Ctrl\Debug\Ctrl.exe
+  Ctrl.vcxproj -> C:\Users\ki0pl\Documents\Visual Studio 2015\Projects\Ctrl\Debug\Ctrl.pdb (Partial PDB)
