@@ -1,5 +1,0 @@
-﻿  MysqlController.cpp
-CSAbility.obj : error LNK2001: 无法解析的外部符号 "protected: static unsigned long CAbility::m_ulAbililtyTotalPt" (?m_ulAbililtyTotalPt@CAbility@@1KA)
-SexAbility.obj : error LNK2001: 无法解析的外部符号 "protected: static unsigned long CAbility::m_ulAbililtyTotalPt" (?m_ulAbililtyTotalPt@CAbility@@1KA)
-C:\Program Files\MySQL\MySQL Server 8.0\lib\libmysql.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
-D:\GitSRC\Ctrl\Debug\Ctrl.exe : fatal error LNK1120: 1 个无法解析的外部命令
