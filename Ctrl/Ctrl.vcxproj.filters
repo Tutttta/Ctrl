@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ability">
+      <UniqueIdentifier>{32e708a4-8cda-4e1f-ba0b-06e18d050b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ability\头文件">
+      <UniqueIdentifier>{388845a8-e0bc-4e42-9b3c-7d5ec8b426fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ability\源文件">
+      <UniqueIdentifier>{ecd1acaf-e7e3-492e-ab11-b0f31bdac58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseFile">
+      <UniqueIdentifier>{e0d845df-5624-4561-bd31-210c3562c01b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseFile\头文件">
+      <UniqueIdentifier>{d4525e45-1672-4d7e-a0fe-84eca477a2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseFile\源文件">
+      <UniqueIdentifier>{7194ff75-667c-4199-aa86-c4040b018079}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBodyStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharactor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerTechRank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DayCalc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FemaleHunted.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortune.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g_attr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkList.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MysqlController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSAbility.h">
+      <Filter>Ability\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SexAbility.h">
+      <Filter>Ability\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads.h">
+      <Filter>UseFile\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UseThreads.h">
+      <Filter>UseFile\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CBodyStatus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharactor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerTechRank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DayCalc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FemaleHunted.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fortune.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g_attr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MysqlController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetStatus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Rank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SexAbility.cpp">
+      <Filter>Ability\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSAbility.cpp">
+      <Filter>Ability\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ability.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads.cpp">
+      <Filter>UseFile\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UseThreads.cpp">
+      <Filter>UseFile\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
