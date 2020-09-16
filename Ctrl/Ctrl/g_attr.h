@@ -6,6 +6,7 @@
 #include <vector>
 #include <memory>
 #include <cctype>
+#include <initializer_list>
 
 #include "Stack.hpp"
 

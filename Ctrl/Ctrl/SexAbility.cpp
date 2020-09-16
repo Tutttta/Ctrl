@@ -1,7 +1,13 @@
 #include "SexAbility.h"
 
-SexAbility::SexAbility() : m_dblSpeed(0.0), m_dblTotalTime(0.0), m_isOrgasm(FALSE), m_uiAvgTime(0), m_usPosture(0)
+SexAbility::SexAbility() : m_dblSpeed(0.0), m_dblTotalSexPt(0.0), m_isOrgasm(FALSE), m_uiAvgTime(0), m_usPosture(0)
 {
+}
+
+SexAbility::SexAbility(UINT uiAvgTime, DOUBLE dblTotalTime, USHORT usPosture, DOUBLE dblSpeed, BOOL isOrgasm) : m_dblSpeed(dblSpeed),
+m_dblTotalSexPt(dblTotalTime), m_isOrgasm(isOrgasm), m_uiAvgTime(uiAvgTime), m_usPosture(usPosture)
+{
+
 }
 
 SexAbility::~SexAbility()
@@ -30,28 +36,34 @@ UINT SexAbility::CalcTheFinalPt()
 {
 	if (m_isOrgasm)
 		return(100);
-	m_dblTotalTime += 50 * m_uiAvgTime * 0.01;
+	m_dblTotalSexPt += 50 * m_uiAvgTime * 0.01;
 	if (m_usPosture <= 2)
-		m_dblTotalTime += 3;
+		m_dblTotalSexPt += 3;
 	else if (m_usPosture <= 5)
-		m_dblTotalTime += 10;
+		m_dblTotalSexPt += 10;
 	else
-		m_dblTotalTime += m_usPosture;
+		m_dblTotalSexPt += m_usPosture;
 	if (m_dblSpeed <= 1)
-		m_dblTotalTime += 5;
+		m_dblTotalSexPt += 5;
 	else if (m_dblSpeed <= 1.5)
-		m_dblTotalTime += 13;
+		m_dblTotalSexPt += 13;
 	else
-		m_dblTotalTime += 20;
+		m_dblTotalSexPt += 20;
+	AddToTotalAbilityPt();
 
-	return(m_dblTotalTime);
+	return(m_dblTotalSexPt);
+}
+
+VOID SexAbility::AddToTotalAbilityPt()
+{
+	m_ulAbililtyTotalPt += m_dblTotalSexPt;
 }
 
 VOID SexAbility::SetSexAbilityAttr(UINT uiAvgTime, DOUBLE dblTotalTime, USHORT usPosture, DOUBLE dblSpeed, BOOL isOrgasm)
 {
 	m_isOrgasm = isOrgasm;
 	m_uiAvgTime = uiAvgTime;
-	m_dblTotalTime = dblTotalTime;
+	m_dblTotalSexPt = dblTotalTime;
 	m_usPosture = usPosture;
 	m_dblSpeed = dblSpeed;
 }

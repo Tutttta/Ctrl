@@ -10,6 +10,7 @@ public:
 private:
 	unsigned short m_usWaterDrink; // At least 8 cup of waters is standard request
 	unsigned long m_usBodyStatusPt;
+
 	
 	DATE m_stDate;
 };

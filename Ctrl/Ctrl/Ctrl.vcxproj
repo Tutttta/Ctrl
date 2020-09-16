@@ -110,25 +110,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Ability.h" />
     <ClInclude Include="CBodyStatus.h" />
     <ClInclude Include="CCharactor.h" />
     <ClInclude Include="CSAbility.h" />
     <ClInclude Include="DayCalc.h" />
     <ClInclude Include="FemaleHunted.h" />
+    <ClInclude Include="Fortune.h" />
     <ClInclude Include="g_attr.h" />
+    <ClInclude Include="Mysql.h" />
     <ClInclude Include="NetStatus.h" />
+    <ClInclude Include="Rank.h" />
     <ClInclude Include="SexAbility.h" />
     <ClInclude Include="Stack.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Ability.cpp" />
     <ClCompile Include="CBodyStatus.cpp" />
     <ClCompile Include="CCharactor.cpp" />
     <ClCompile Include="CSAbility.cpp" />
     <ClCompile Include="DayCalc.cpp" />
     <ClCompile Include="FemaleHunted.cpp" />
+    <ClCompile Include="Fortune.cpp" />
     <ClCompile Include="g_attr.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mysql.cpp" />
     <ClCompile Include="NetStatus.cpp" />
+    <ClCompile Include="Rank.cpp" />
     <ClCompile Include="SexAbility.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
