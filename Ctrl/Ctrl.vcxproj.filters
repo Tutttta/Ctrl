@@ -45,12 +45,6 @@
     <ClInclude Include="DayCalc.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="FemaleHunted.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Fortune.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="g_attr.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -90,6 +84,12 @@
     <ClInclude Include="UseThreads.h">
       <Filter>UseFile\头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Fortune.h">
+      <Filter>Ability\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FemaleHunted.h">
+      <Filter>Ability\头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CBodyStatus.cpp">
@@ -102,12 +102,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="DayCalc.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="FemaleHunted.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Fortune.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="g_attr.cpp">
@@ -145,6 +139,12 @@
     </ClCompile>
     <ClCompile Include="UseThreads.cpp">
       <Filter>UseFile\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fortune.cpp">
+      <Filter>Ability\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FemaleHunted.cpp">
+      <Filter>Ability\源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

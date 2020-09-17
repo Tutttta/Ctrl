@@ -1,5 +1,6 @@
 #pragma once
 #include "g_attr.h"
+#include "UI.h"
 #include "NetStatus.h"
 
 class CDayCalc

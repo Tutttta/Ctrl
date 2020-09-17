@@ -27,10 +27,11 @@ SYSTEMTIME CDayCalc::GetSystemTime()
 
 VOID CDayCalc::PrintTime(UINT uiX, UINT uiY)
 {
+	CUI ui;
 	string strArr[7] = {"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"};
 	GetLocalTime(&m_stSysTime);
 	FormatTime(m_stSysTime.wYear, m_stSysTime.wMonth, m_stSysTime.wDay, m_stSysTime.wHour, m_stSysTime.wMinute, m_stSysTime.wSecond, strArr[m_stSysTime.wDayOfWeek]);
-	PrintStr(m_strTime, uiX, uiY);
+	ui.PrintStr(m_strTime, uiX, uiY);
 }
 
 VOID CDayCalc::FormatTime(USHORT usYear, USHORT usMonth, USHORT usDay, 

@@ -19,6 +19,11 @@ static unsigned long m_ulAbililtyTotalPt;
 #define DATELEN 36
 #define GIRLAMOUNT 5000
 
+#define INCOMELEVEL1 20000
+#define INCOMELEVEL2 30000
+#define INCOMELEVEL3 40000
+#define INCOMELEVEL4 50000
+#define INCOMELEVEL5 60000
+
 // public functions
 char *NumberToString(int iNum);
-VOID PrintStr(string strToShow, UINT uiX, UINT uiY);

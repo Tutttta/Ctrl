@@ -34,15 +34,3 @@ char *NumberToString(int iNum) {
 
 	return(pTimeStr);
 }
-
-VOID PrintStr(string strToShow, UINT uiX, UINT uiY)
-{
-	HANDLE hConsole = NULL;
-	COORD pos = {uiX, uiY};
-
-	hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-	SetConsoleCursorPosition(hConsole, pos);
-	cout << strToShow;
-
-	return;
-}

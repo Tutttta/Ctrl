@@ -6,7 +6,7 @@ DWORD WINAPI ThreadDayCalcProc(
 ) {
 	CDayCalc *pCDayCalc = (CDayCalc *)lpParameter;
 	while (TRUE) {
-		pCDayCalc->PrintTime(50, 24);
+		pCDayCalc->PrintTime(100, 15);
 		Sleep(1000);
 		system("cls");
 	}

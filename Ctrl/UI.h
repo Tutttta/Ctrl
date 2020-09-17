@@ -4,8 +4,10 @@
 class CUI
 {
 public:
-	CUI();
+	CUI() = default;
 	~CUI();
 	VOID MainMenu();
+	VOID PrintStr(string strToShow, UINT uiX, UINT uiY);
+	HWND GetConsoleHwnd();
 };
 
