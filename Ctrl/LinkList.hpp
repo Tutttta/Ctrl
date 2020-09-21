@@ -27,8 +27,6 @@ private:
 	LinkList<T> **ppHeadPtr;
 };
 
-
-
 template <typename T>
 CLinkList<T>::CLinkList() {
 	ppHeadPtr = new (LinkList<T> *);
@@ -75,6 +73,12 @@ VOID CLinkList<T>::TraverseList() {
 
 	return;
 }
+
+template <typename T>
+BOOL CLinkList<T>::DelFromList(T *_InfoDelFromList, UINT uiPos) {
+
+}
+
 
 template <typename T>
 CLinkList<T>::~CLinkList() {

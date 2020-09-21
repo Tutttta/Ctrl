@@ -127,6 +127,8 @@
     <ClInclude Include="ComputerTechRank.h" />
     <ClInclude Include="CSAbility.h" />
     <ClInclude Include="DayCalc.h" />
+    <ClInclude Include="Enemies.h" />
+    <ClInclude Include="Enemy.h" />
     <ClInclude Include="FemaleHunted.h" />
     <ClInclude Include="Fortune.h" />
     <ClInclude Include="g_attr.h" />
@@ -148,6 +150,8 @@
     <ClCompile Include="ComputerTechRank.cpp" />
     <ClCompile Include="CSAbility.cpp" />
     <ClCompile Include="DayCalc.cpp" />
+    <ClCompile Include="Enemies.cpp" />
+    <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="FemaleHunted.cpp" />
     <ClCompile Include="Fortune.cpp" />
     <ClCompile Include="g_attr.cpp" />
